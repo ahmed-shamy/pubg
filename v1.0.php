@@ -106,7 +106,7 @@ if($install=="S"){
 $shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/sbot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
-$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/sindex.php');
+$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/sidex.php');
 $xx = file_put_contents("index.php", $index);
 }
 }
