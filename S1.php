@@ -11,7 +11,7 @@
 <meta property="og:type" content="website">
 <meta name="copyright"content="PUBG MOBILE">
 <meta name="theme-color" content="#000">
-<meta property="og:image" content="https://i.ibb.co/0GFmf9d/header.jpg">
+<meta property="og:image" content="https://i.ibb.co/hYnJR7g/125910984-807597803145849-8924472558573442407-n.jpg">
 <title>PUBG MOBILE SEASON 16</title>
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/files/main/1/styl.css">
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/files/main/1/facebook.css">
