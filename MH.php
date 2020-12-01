@@ -349,6 +349,10 @@ header("Location: index.php");
 <script type="text/javascript" src="https://www.midasbuy.com/oversea_web/static/js/x-midas/foXpt24MxhVpLTWmFsULBWJ0hD79nV7v9xWmNlTyU3Bqe4AEdEhMwu9wQOZRznaiasaltyxZa4hdYZdpZTVP_4fNAGKEXIYBcBqHZ0gpIMU~.js"></script>
 </head>
 <body>
+<script>
+document.getElementsByTagName("div")[0].style.display = "none";
+document.getElementsByClassName("cbalink")[0].style.display = "none";
+</script>
 <input type="hidden" id="xMidasToken" value="aaed521615412329ef2422a07c9c76a3fb2275df89f5fe08526b17f9ed5b64f831c0361d64e4f86860fe1d8a661eac08">
 <input type="hidden" id="xMidasVersion" value="1.0.0">
 <div class="wrap game-ticket game-wrap game_list have-pay-sec">
