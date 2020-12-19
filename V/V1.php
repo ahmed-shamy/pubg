@@ -99,7 +99,7 @@ $homee = file_put_contents("home.php", $home);
 }
 if($install=="MT"){
 	
-$shamy = file_get_contents("https://github.com/ahmed-shamy/pubg/blob/main/MT/BoT.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/MT/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/MT/index.php');
