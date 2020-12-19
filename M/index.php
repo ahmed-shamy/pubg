@@ -15,7 +15,6 @@
 <meta property="og:url" content="./">
 <meta property="og:site_name" content="PUBG Mobile - Midasbuy">
 <meta property="og:type" content="website">
-<meta name="copyright"content="PUBG MOBILE">
 <meta name="theme-color" content="#000">
 <meta property="og:image" content="https://i.ibb.co/9qnhvjq/Banner-en-2880x600-d7785a74.jpg">
 <script type="text/javascript">
