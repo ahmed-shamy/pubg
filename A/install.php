@@ -6,8 +6,15 @@ if($v != $version){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
 $xx = file_put_contents("pubg.php", $index);
-$url1 = "pubg.php";
-header("location: $url1");
+?>
+	   <html>
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="refresh" content="1">
+</head>
+</body>
+</html>
+<?
 }
 function save($array){
     file_put_contents('Sha_My.json', json_encode($array));
