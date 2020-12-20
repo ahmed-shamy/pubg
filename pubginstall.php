@@ -143,7 +143,7 @@ if(!$install){
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<title>Pubg - By @PPABB</title>
+<title>Install IndexPubg - By ShaMy</title>
 <link rel="stylesheet" href="https://raw.githack.com/ahmed-shamy/install/main/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
