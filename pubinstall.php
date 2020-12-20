@@ -1,7 +1,7 @@
 <?
 $info = json_decode(file_get_contents('http://sha-my.xyz/Pubg/info.json'),1);
 $version= $info[info]['version'];
-$v = "1.0.2";
+$v = "1.0.3";
 if($v != $version){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
@@ -157,21 +157,6 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
    <h5>Choose the index you want.</h5>
     <br><hr><br>
    </center>
-   
-<table border="0" width="100%">
-<center>
-<tr>
-<td>
-<center>
-		<div class="card">
-  <img src="https://i.ibb.co/37jDm9T/129115007-1874024536095409-4186398985760583330-n.png" style="width:100%">
-  <p><a href="pubg.php?index=X"><button>Install</button></a></p>
-</div>
-</center>
-</td>
-</tr>
-</center>
-</table>
 <table border="0" width="100%">
 <center>
 <tr>
@@ -201,7 +186,7 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 </td>
 </tr>
 </center>
-</table>
+</table>   
 <table border="0" width="100%">
 <center>
 <tr>
@@ -236,6 +221,12 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 <center>
 <tr>
 <td>
+<center>
+		<div class="card">
+  <img src="https://i.ibb.co/37jDm9T/129115007-1874024536095409-4186398985760583330-n.png" style="width:100%">
+  <p><a href="pubg.php?index=X"><button>Install</button></a></p>
+</div>
+</center>
 </td>
 </tr>
 </center>
