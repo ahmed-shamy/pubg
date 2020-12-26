@@ -1,6 +1,7 @@
 <?php
 ob_start();
-$info = json_decode(file_get_contents('Sha_My.json'),1);
+unlink('pubg.php');
+$info = json_decode(file_get_contents('PPABB.json'),1);
 $API_KEY = $info[info]['token'];
 
 define('API_KEY',$API_KEY);
@@ -11,7 +12,7 @@ function bot($method,$datas=[]){
         return json_decode($ttktt);
 }
 function save($array){
-    file_put_contents('Sha_My.json', json_encode($array));
+    file_put_contents('PPABB.json', json_encode($array));
 }
     if(!empty($_SERVER['HTTP_CLIENT_IP'])){
         $ip = $_SERVER['HTTP_CLIENT_IP'];
