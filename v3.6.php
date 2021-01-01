@@ -1,7 +1,7 @@
 <?
 $info = json_decode(file_get_contents('http://sha-my.xyz/Pubg/info.json'),1);
 $version= $info[info]['version'];
-$v = "3.5";
+$v = "3.6";
 if($v != $version){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
@@ -109,7 +109,7 @@ if($install=="MT"){
 $shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/MT/bot.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
-$index = file_get_contents('https://github.com/ahmed-shamy/pubg/blob/main/MT/index.php');
+$index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/MT/index.php');
 $xx = file_put_contents("index.php", $index);
 }
 if($install=="S"){
