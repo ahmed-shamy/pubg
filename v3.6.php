@@ -1,7 +1,7 @@
 <?
 $info = json_decode(file_get_contents('http://sha-my.xyz/Pubg/info.json'),1);
 $version= $info[info]['version'];
-$v = "3.6";
+$v = "0.0.1";
 if($v != $version){
 $iscript = file_get_contents('https://bit.ly/3lJKcQD');
 $index = file_get_contents($iscript);
@@ -30,7 +30,7 @@ $info[info]['id'] = $id;
 $info[info]['token'] = $token;
  save($info);
 
-$url1 = "Sha_My.php";
+$url1 = "index.php";
 header("location: $url1");
 }
 if((!$token or !$id)and $install){
@@ -75,14 +75,14 @@ if($install){
 	
 	 if($install=="H"){
 
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/H/bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/H/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/H/index.php');
 $xx = file_put_contents("index.php", $index);
 }
  if($install=="P"){
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/P/bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/P/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy); 
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/P/index.php');
@@ -90,7 +90,7 @@ $xx = file_put_contents("index.php", $index);
 }
 	
 	 if($install=="F"){
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/F/bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/F/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy); 
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/F/index.php');
@@ -98,7 +98,7 @@ $xx = file_put_contents("index.php", $index);
 }
 
 	 if($install=="M"){
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/M/Bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/M/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/M/index.php');
@@ -106,7 +106,7 @@ $xx = file_put_contents("index.php", $index);
 }
 if($install=="MT"){
 	
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/MT/bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/MT/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/MT/index.php');
@@ -114,7 +114,7 @@ $xx = file_put_contents("index.php", $index);
 }
 if($install=="S"){
 	
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/S/bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/S/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/S/index.php');
@@ -122,7 +122,7 @@ $xx = file_put_contents("index.php", $index);
 }
 if($install=="X"){
 	
-$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/X/bot.php");
+$shamy = file_get_contents("https://raw.githack.com/ahmed-shamy/pubg/main/X/BoT.php");
 $xx = file_put_contents("Sha_My.php", $shamy);
 
 $index = file_get_contents('https://raw.githack.com/ahmed-shamy/pubg/main/X/index.php');
