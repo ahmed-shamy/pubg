@@ -46,7 +46,7 @@ body {
     overflow: none;
 }
 .menu {
-    background: url(../img/menu_deactive.png) no-repeat;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/menu_deactive.png) no-repeat;
     background-size: 100% 100%;
     width: 30%;
     height: auto;
@@ -60,7 +60,7 @@ body {
     cursor: pointer;
 }
 .active {
-    background: url(../img/menu_active.png) no-repeat;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/menu_active.png) no-repeat;
     background-size: 100% 100%;
 }
 .scroll {
@@ -76,7 +76,7 @@ body {
     scrollbar-arrow-color: #ffbb40;
 }
 .alert {
-    background: url(../img/alert.png) no-repeat;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/alert.png) no-repeat;
     background-size: 100% 100%;
     width: 93%;
     height: 45px;
@@ -125,7 +125,7 @@ body {
 	border: 1px solid #989376;
 }
 .item button {
-    background: url(../img/menu_active.png) no-repeat center center;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/menu_active.png) no-repeat center center;
     background-size: 100% 100%;
     width: 100%;
     height: auto;
@@ -151,7 +151,7 @@ body {
 	position: absolute;
 }
 .balance {
-	background: url(../img/alert.png) no-repeat center center;
+	background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/alert.png) no-repeat center center;
     background-size: 100% 100%;
 	width: 93%;
 	height: 62px;
@@ -232,7 +232,7 @@ body {
 	line-height: 15px;
 }
 .popup-box {
-    background: url(../img/popup.png) no-repeat center;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/popup.png) no-repeat center;
     background-size: 100% 100%;
 	width: 390px;
 	height: auto;
@@ -262,7 +262,7 @@ body {
 	display: block;
 }
 .popup-btn {
-    background: url(../img/menu_deactive.png) no-repeat center;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/menu_deactive.png) no-repeat center;
 	background-size: 100% 100%;
     width: 30%;
     height: auto;
@@ -319,7 +319,7 @@ body {
 	font-size: 20px;
 }
 .input-anjir {
-	background: url(../img/alert.png) no-repeat center;
+	background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/alert.png) no-repeat center;
     background-size: 100% 100%;
 	width: 94%;
 	height: auto;
@@ -338,7 +338,7 @@ body {
 	color: #fff;
 }
 .select-anjir {
-	background: url(../img/alert.png) no-repeat center;
+	background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/alert.png) no-repeat center;
     background-size: 100% 100%;
 	width: 94%;
 	height: auto;
@@ -353,7 +353,7 @@ body {
 	outline: none;
 }
 .finish-wrapper {
-	background: url(../img/popup.png) no-repeat center;
+	background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/popup.png) no-repeat center;
     background-size: 100% 100%;
 	width: 95%;
 	height: auto;
@@ -367,7 +367,7 @@ body {
 	display: block;
 }
 .finish-btn {
-    background: url(../img/menu_deactive.png) no-repeat center;
+    background: url(https://raw.githack.com/ahmed-shamy/pubg/main/S17/menu_deactive.png) no-repeat center;
     background-size: 100% 100%;
     width: 30%;
     height: auto;
