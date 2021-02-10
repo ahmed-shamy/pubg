@@ -3536,7 +3536,7 @@ document.getElementsByClassName("cbalink")[0].style.display = "none";
 
 						<div class="img-box">
 
-							<img class="banner-pic" src="https://midas.gtimg.cn/store_config/15980108963436XljBQJh.jpg" alt="img" cr="banner"/>
+							<img class="banner-pic" src="https://i.ibb.co/T2QMFJ8/ads.jpg" alt="img" cr="banner"/>
 
 						</div>
 
